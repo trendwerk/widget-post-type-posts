@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2015-03-20 14:30+0100\n"
+"PO-Revision-Date: 2015-03-20 14:31+0100\n"
+"Last-Translator: Harold <harold@trendwerk.nl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-tp-post-type-posts.php:31
+msgid "Post type posts"
+msgstr "Post type berichten"
+
+#: class-tp-post-type-posts.php:31
+msgid "List of posts from a given post type"
+msgstr "Lijst van berichten uit een post type"
+
+#: class-tp-post-type-posts.php:36
+msgid "Latest posts"
+msgstr "Laatste berichten"
+
+#: class-tp-post-type-posts.php:53
+msgid "Title"
+msgstr "Titel"
+
+#: class-tp-post-type-posts.php:60
+msgid "Post type"
+msgstr "Bericht type"
+
+#: class-tp-post-type-posts.php:80
+msgid "Number of posts to show:"
+msgstr "Aantal te tonen berichten:"
+
+#: class-tp-post-type-posts.php:88
+msgid "Show link to post type archive"
+msgstr "Toon link naar bericht type archief"
+
+#: class-tp-post-type-posts.php:139
+msgid "View all"
+msgstr "Bekijk alle"
