@@ -27,8 +27,11 @@ class TP_Post_Type_Posts_Plugin {
 } new TP_Post_Type_Posts_Plugin;
 
 class TP_Post_Type_Posts extends WP_Widget {
+
 	function TP_Post_Type_Posts() {
-		$this->WP_Widget( 'TP_Post_Type_Posts', __( 'Post type posts', 'widget-post-type-posts' ), array( 'description' => __( 'List of posts from a given post type', 'widget-post-type-posts' ) ) );
+		$this->WP_Widget( 'TP_Post_Type_Posts', __( 'Post type posts', 'widget-post-type-posts' ), array( 
+			'description' => __( 'List of posts from a given post type', 'widget-post-type-posts' ),
+		) );
 	}
 	
 	function form( $instance ) {
@@ -146,4 +149,5 @@ class TP_Post_Type_Posts extends WP_Widget {
 		wp_reset_postdata();
 	}
 }
+
 add_action( 'widgets_init', create_function( '', 'return register_widget( "TP_Post_Type_Posts" );' ) );
