@@ -150,4 +150,6 @@ class TP_Post_Type_Posts extends WP_Widget {
 	}
 }
 
-add_action( 'widgets_init', create_function( '', 'return register_widget( "TP_Post_Type_Posts" );' ) );
+add_action( 'widgets_init', function() {
+	return register_widget( 'TP_Post_Type_Posts' );
+} );
