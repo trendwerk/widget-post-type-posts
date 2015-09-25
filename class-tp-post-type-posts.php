@@ -29,7 +29,7 @@ class TP_Post_Type_Posts_Plugin {
 class TP_Post_Type_Posts extends WP_Widget {
 
 	function __construct() {
-		$this->WP_Widget( 'TP_Post_Type_Posts', __( 'Post type posts', 'widget-post-type-posts' ), array( 
+		parent::__construct( 'TP_Post_Type_Posts', __( 'Post type posts', 'widget-post-type-posts' ), array( 
 			'description' => __( 'List of posts from a given post type', 'widget-post-type-posts' ),
 		) );
 	}
